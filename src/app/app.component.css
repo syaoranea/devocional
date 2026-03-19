@@ -1,0 +1,39 @@
+.planner-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2rem;
+  max-width: 600px;
+  margin: 2rem auto;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 0.5rem;
+}
+
+.user-info {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #3498db;
+  margin-top: 1rem;
+}
+
+.user-info p {
+  margin: 0.5rem 0;
+  color: #34495e;
+}
+
+.user-info strong {
+  color: #3498db;
+}
+
+.guest {
+  border-left-color: #e74c3c;
+  color: #7f8c8d;
+}
